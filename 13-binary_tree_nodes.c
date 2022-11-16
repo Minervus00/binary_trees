@@ -13,7 +13,7 @@ int binary_tree_is_leaf(const binary_tree_t *node)
 }
 
 /**
- * binary_tree_leaves - counts the leaves in a binary tree
+ * binary_tree_nodes - counts the nodes in a binary tree
  * @tree: pointer to the root node of the tree to count the leaves in
  * Return: number of leaves in a binary tree
  */
