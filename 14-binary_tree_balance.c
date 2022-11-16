@@ -19,7 +19,7 @@ size_t binary_tree_height(const binary_tree_t *tree)
 }
 
 /**
- * binary_tree_leaves - gives the balance in a binary tree
+ * binary_tree_balance - gives the balance in a binary tree
  * @tree: pointer to the root node of the tree to count the leaves in
  * Return: number of leaves in a binary tree
  */
