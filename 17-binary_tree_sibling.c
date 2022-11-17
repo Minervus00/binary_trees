@@ -2,7 +2,7 @@
 
 /**
  * binary_tree_sibling - finds sibling of a node in binary tree
- * @tree: a pointer to the root node of the tree to measure the size
+ * @node: a pointer to the root node of the tree to measure the size
  * Return: the size or 0 if tree is NULL
  */
 binary_tree_t *binary_tree_sibling(binary_tree_t *node)
