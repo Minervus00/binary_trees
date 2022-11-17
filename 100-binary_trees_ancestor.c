@@ -2,7 +2,8 @@
 
 /**
  * binary_tree_ancestor - finds lowest common ancestor of two nodes in binary tree
- * @tree: a pointer to the root node of the tree to measure the size
+ * @first: a pointer to the first node
+ * @second: a pointer to the second node
  * Return: the size or 0 if tree is NULL
  */
 binary_tree_t *binary_trees_ancestor(const binary_tree_t *first, const binary_tree_t *second)
