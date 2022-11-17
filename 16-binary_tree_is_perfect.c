@@ -56,18 +56,18 @@ size_t binary_tree_height(const binary_tree_t *tree)
 
 /**
  * ipow - puissance
- * @a: int
+ * @e: int
  * @b: int
  * Return: the size or 0 if tree is NULL
  */
 size_t ipow(int b, int e)
 {
-	if (e==0)
+	if (e == 0)
 		return 1;
-	else if (b==0)
+	else if (b == 0)
 		return 0;
 	else
-		return b*ipow(b,e-1);
+		return (b * ipow(b, e-1));
 }
 
 /**
@@ -77,5 +77,6 @@ size_t ipow(int b, int e)
  */
 int binary_tree_is_perfect(const binary_tree_t *tree)
 {
-	return ((ipow(2, (binary_tree_height(tree) + 1)) - 1) == binary_tree_size(tree));
+	size_t tmp = ipow(2, (binary_tree_height(tree) + 1));
+	return ((tmp - 1) == binary_tree_size(tree));
 }
